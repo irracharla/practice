@@ -24,7 +24,7 @@ function App() {
   }
   return (
     <Authenticator>
-      {({ signOut }) => (
+      {({ signOut, user }) => (
     <main>
                 <h1>{user?.signInDetails?.loginId}'s todos</h1>
       <h1>My todos</h1>
